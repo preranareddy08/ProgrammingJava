@@ -14,6 +14,7 @@ public class LongestSubbaraySumEqualToKey {
 
         int maxlen = Integer.MIN_VALUE;
         int start = 0, end = 0;
+
         for (int i = 0; i < n; i++) {
             int temp = 0;
             for (int j = i; j < n; j++) {
